@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<div class="container">
+    <h2><b>Address Book Application</b></h2>
+</div>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="Address.js">
+    </script>
+    <link rel="stylesheet" href="Address.css">
+</head>
+
+<body>
+
+    <form method="POST">
+        <div class="container-sm  border">
+            <div class="form-group col-md-8" style="display: -webkit-box;">
+                <label style="margin: 22px;display: inline;"><b>Enter Name</b></label>
+                <input type="text" id="Pname" class="form-control"><br>
+
+                <p id="name"></p>
+
+            </div>
+            <div class="form-group col-md-8" style="display: -webkit-box;">
+                <label style="margin: 22px;display: inline;"><b>Enter Street</b></label>
+                <input type="text" id="Street" class="form-control"><br>
+                <p id="sname"></p>
+            </div>
+            <div class="form-group col-md-8" style="display: -webkit-box;">
+                <label style="margin: 29px;display: inline;"><b>Enter City</b></label>
+                <input type="text" id="City" class="form-control"><br>
+                <p id="cname"></p>
+            </div>
+            <div class="form-group col-md-8" style="display: -webkit-box;">
+                <label style="margin: 13px;display: inline;"><b>Enter Pincode</b></label>
+                <input type="text" id="Pincode" maxlength="6" placeholder="Enter 6 digits pincode " class="form-control"><br>
+
+                <p id="piname"></p>
+
+            </div>
+            <button type="button" value="submit" class="btn btn-primary" onclick="validateForm()">Submit</button>
+        </div>
+    </form>
+
+</body>
+
+</html>

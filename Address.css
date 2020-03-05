@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    background-color: lightblue;
+}
+
+.container-sm {
+    padding: 41px 12%;
+}
+
+.container {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.btn-primary {
+    text-align: center;
+}
+
+.form-group {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 3rem;
+}
